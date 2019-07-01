@@ -1,0 +1,20 @@
+{
+    "name": "hamza/alcazar-php",
+    "description": "a simple php package to control alcazar api",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamza Mostafa",
+            "email": "hmza.mostafa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
