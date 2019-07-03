@@ -36,7 +36,8 @@ class AlcazarPHP
         $this->options = new AlcazarAPIOptions();
         $this->options
             ->setApiKey($this->config['api-key'])
-            ->setOutput('json');
+            ->setOutput('json')
+            ->setExtended('true');
 
         $this->telephoneNumber = $telephoneNumber;
     }
